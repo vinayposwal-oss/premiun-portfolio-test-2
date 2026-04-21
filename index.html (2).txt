@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vinay Poswal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1 class="logo">Vinay.</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="section hero">
+  <h2>Hi, I'm Vinay 👋</h2>
+  <p>Frontend Developer crafting premium web experiences</p>
+  <button onclick="scrollToSection('projects')">View Work</button>
+</section>
+
+<section id="about" class="section glass">
+  <h2>About Me</h2>
+  <p>I build clean, modern, and interactive web interfaces with a focus on user experience.</p>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Modern personal portfolio</p>
+    </div>
+    <div class="card">
+      <h3>Weather App</h3>
+      <p>Real-time weather UI</p>
+    </div>
+    <div class="card">
+      <h3>Todo App</h3>
+      <p>Task manager with clean UI</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section glass">
+  <h2>Contact</h2>
+  <p>Email: vinay@example.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Vinay Poswal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
